@@ -42,6 +42,9 @@ if [[ $# -gt 0 ]]; then
    exec $@
 else
    wait_for_db
-   wait_for_istio
+   if [ "$ISTIO_ENABLED" = true ]
+   then
+      wait_for_istio
+   fi
    run_sledger
 fi
