@@ -30,6 +30,7 @@ function run_sledger() {
    fi
 
    # kill command to terminate istio envoy proxy
+   # this may fail silently if the Istio sidecar proxy is not there
    curl -fsI -X POST http://localhost:15000/quitquitquit
 
    exit $result
