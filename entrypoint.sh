@@ -1,5 +1,10 @@
 #!/bin/bash
 
+### ENVIRONMENT VARIABLES USED ###
+# ISTIO_ENABLED - when set to true, waits for the Istio sidecar proxy to be up
+#                 before running sledger
+##################################
+
 export PGPASSWORD=$DATABASE_MIGRATION_PASSWORD
 
 function wait_for_db() {
