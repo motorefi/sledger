@@ -59,6 +59,7 @@ spec:
                     - name: repo-url
                     - name: dockerfile-location
                       value: "Dockerfile"
+                      # Updated to use GAR
                     - name: destination
                       value: "us-east4-docker.pkg.dev/shared-svcs-prod-artifacts-e7/shared-svcs-docker-images"
                     - name: pr-context

@@ -3,6 +3,7 @@
 # Declare variables to be passed into your templates.
 
 image:
+  # Updated to use GAR
   repository: us-east4-docker.pkg.dev/shared-svcs-prod-artifacts-e7/shared-svcs-docker-images/sledger
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
