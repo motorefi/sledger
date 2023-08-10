@@ -19,6 +19,6 @@ spec:
       - name: dockerfile-location
         value: "Dockerfile"
       - name: destination
-        value: "docker.motoinfra.com"
+        value: "us-east4-docker.pkg.dev/shared-svcs-prod-artifacts-e7/shared-svcs-docker-images"
       - name: pr-context
         value: "image-build"
