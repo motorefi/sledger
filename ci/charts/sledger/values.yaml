@@ -7,7 +7,7 @@ image:
   repository: us-east4-docker.pkg.dev/shared-svcs-prod-artifacts-e7/shared-svcs-docker-images/sledger
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "ed7f2db919f209bdeb4a636feacedfcdfb8f81b0"
+  tag: "3ac63b5b92e49058aa7a99fc51b2d70f0c8ec249"
 imagePullSecrets:
   - name: nexus-repository-manager-docker-pull-secret
 
