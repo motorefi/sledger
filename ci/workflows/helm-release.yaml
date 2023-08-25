@@ -48,7 +48,7 @@ spec:
               spec:
                 serviceAccountName: shared-svcs-1-argo-workflows-sa
                 workflowTemplateRef:
-                  name: helm-release-v2-0-0
+                  name: helm-release-v4-0-0
                 arguments:
                   parameters:
                     - name: semver
